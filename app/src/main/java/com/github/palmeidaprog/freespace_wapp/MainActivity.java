@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity
         setTitle("Freespace WhatsApp");
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setTheme(0);
         setSupportActionBar(toolbar);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
