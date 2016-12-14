@@ -7,6 +7,9 @@
         (internal storage) to your SD card to free internal space.</string>
     <string name="chooseOption">Choose one of the options below:</string>
     <string name="action_settings">Settings</string>
+    <string name="tab1">Move all</string>
+    <string name="tab2">Images</string>
+    <string name="tab3">Videos</string>
     <string name="title_activity_tab">tabActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
 </resources>
