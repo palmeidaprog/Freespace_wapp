@@ -3,6 +3,10 @@
 
     <string name="navigation_drawer_open">Open navigation panel</string>
     <string name="navigation_drawer_close">Close navigation panel</string>
-
+    <string name="Text1_content_main">The program will move the data (Images, audios and videos) from your phone
+        (internal storage) to your SD card to free internal space.</string>
+    <string name="chooseOption">Choose one of the options below:</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_tab">tabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

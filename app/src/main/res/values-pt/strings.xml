@@ -3,5 +3,8 @@
     <string name="app_name">Freespace WhatsApp</string>
     <string name="navigation_drawer_close">Fechar painel de navegação</string>
     <string name="navigation_drawer_open">Abrir painel de navegação</string>
+    <string name="Text1_content_main">O programa irá mover os dados (Imagens, áudio e vídeos) do seu telefone
+        para o seu cartão para poder liberar espaço.</string>
+    <string name="chooseOption">Escolha uma das opções abaixo:</string>
     <string name="action_settings">Opções</string>
 </resources>
