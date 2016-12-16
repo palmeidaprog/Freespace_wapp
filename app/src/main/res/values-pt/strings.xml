@@ -7,4 +7,7 @@
         para o seu cartão para poder liberar espaço.</string>
     <string name="chooseOption">Escolha uma das opções abaixo:</string>
     <string name="action_settings">Opções</string>
+    <string name="tab1">Mover Todos</string>
+    <string name="tab2">Imagens</string>
+    <string name="tab3">Vídeos</string>
 </resources>
