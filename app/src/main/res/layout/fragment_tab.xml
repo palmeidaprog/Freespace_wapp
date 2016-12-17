@@ -11,6 +11,44 @@
     <TextView
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/Text1_content_main" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:checkedButton="@+id/moveAllRadio"
+        android:layout_below="@+id/section_label"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:text="@string/radio_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moveAllRadio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/radio_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgRadio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/radio_vid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/videoRadio"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="@string/radio_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/audioRadio"
+            android:layout_weight="1" />
+    </RadioGroup>
 
 </RelativeLayout>

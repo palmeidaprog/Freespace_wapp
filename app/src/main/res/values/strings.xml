@@ -12,4 +12,8 @@
     <string name="tab3">Videos</string>
     <string name="title_activity_tab">tabActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="radio_move">Move All</string>
+    <string name="radio_img">Move Images</string>
+    <string name="radio_vid">Move Videos</string>
+    <string name="radio_audio">Move Audio</string>
 </resources>
