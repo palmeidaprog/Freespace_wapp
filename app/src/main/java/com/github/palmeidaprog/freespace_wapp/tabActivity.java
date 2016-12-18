@@ -52,9 +52,8 @@ public class tabActivity extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
 
-        //TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        //
-        // tabLayout.setupWithViewPager(mViewPager);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(mViewPager);
 
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -119,7 +118,8 @@ public class tabActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_tab, container, false);
+            //View rootView = inflater.inflate(R.layout.fragment_tab, container, false);
+            View rootView = inflater.inflate(R.layout.content_main, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
@@ -146,7 +146,7 @@ public class tabActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 1;
+            return 3;
         }
 
         @Override
